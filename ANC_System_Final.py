@@ -63,7 +63,7 @@ def main():
     # Sidebar controls
     st.sidebar.header("Parameters")
     freq = st.sidebar.slider("Signal Frequency (Hz)", 50, 2000, 440, step=10)
-    mu = st.sidebar.slider("Step Size (μ)", 0.0001, 0.01, 0.001, step=0.0001)
+    mu = st.sidebar.slider("Step Size (μ)", 0.0001, 0.01, 0.001, step=0.0001, format="%.4f")
     filter_len = st.sidebar.slider("Filter Length", 8, 128, 64, step=1)
     noise_amp = 0.4      # Could also expose as a slider if desired
     sample_rate = 16000  # Could also expose if desired
