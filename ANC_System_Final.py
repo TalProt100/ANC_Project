@@ -57,7 +57,7 @@ def to_wav_bytes(audio_data, sample_rate=16000):
 # STEP 3: STREAMLIT APP
 ###################################
 def main():
-    st.title("Noise Cancellation Demo - LMS Filter/n by Yuval and Tal")
+    st.title("Noise Cancellation Demo - LMS Filter by Yuval and Tal")
 
     # Sidebar controls
     st.sidebar.header("Parameters")
