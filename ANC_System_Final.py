@@ -58,7 +58,7 @@ def to_wav_bytes(audio_data, sample_rate=16000):
 ###################################
 def main():
     st.title("Noise Cancellation Demo - LMS Filter")
-    st.markdown("**by Yuval and Tal**")
+    st.markdown("**by Yuval Sasson and Tal Rozner**")
 
     # Sidebar controls
     st.sidebar.header("Parameters")
